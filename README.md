@@ -1,23 +1,79 @@
--data base used to store and manage data''
+# 🚀 Project Fair – Frontend
 
-SQL
-=======
--Relational/SQL RDBMS
--Data is stored in tables AND ROWS
--uses fixed schema
--optimized for complex join and transcation
--support rich set of data types
-ACID(Automatically,consisitancy,isolation,durability)
+Project Fair is a portfolio sharing platform where users can register, log in, and showcase their projects publicly.
+
+This repository contains the **React Frontend** of the application.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://projectfair-delta.vercel.app/
+
+---
+
+## 🌟 Features
+
+- 🔐 User Registration & Login
+- 🛡 JWT-based Protected Routes
+- ➕ Add New Projects
+- ✏ Edit Projects
+- 🗑 Delete Projects
+- 🔍 Search All Projects
+- 👤 Update User Profile
+- 🖼 Image Upload with Preview
+- 🔔 Toast Notifications
+- 📱 Fully Responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+- React JS
+- React Router
+- Context API
+- Axios
+- Bootstrap
+- JWT Authentication
+
+---
+
+## 🧠 Authentication Flow
+
+1. User logs in
+2. Backend returns JWT token
+3. Token stored in sessionStorage
+4. Protected routes unlock
+5. API requests include Bearer token
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+├── components/
+├── pages/
+├── services/
+├── context/
+├── assets/
+└── App.js
+```
+
+---
+
+## 🔗 Backend Repository
+
+https://github.com/salmanul-faris-k/projectfairserver
+
+---
+## DEMO
 
 
 
-MongoDB
-================
+---
+## 👨‍💻 Author
 
--Document-based NoSQL DBMS
--Data is stored in JSON  documents
--uses dynamic schema
--optimized for high performance and scalability
--limited set of data types
--CAP  (Consistency,Durability,partion, Tolernace)theorem
--used in bigdata and real time application
+Salmanul Faris K  
+GitHub: https://github.com/salmanul-faris-k
+
